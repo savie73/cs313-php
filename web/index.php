@@ -21,7 +21,7 @@
     <span class="w3-tag">CS 313-02</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-black" style="font-size:90px">Savannah<br>Pyle</span>
+    <span class="w3-text-black outline" style="font-size:90px">Savannah<br>Pyle</span>
   </div>
   
 </header>
