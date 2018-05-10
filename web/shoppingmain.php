@@ -83,31 +83,33 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
       <div class="w3-container">
         <img src="estee2.PNG" style="width:100%">
-        <p>Double Wear Nude<br><b>$42.00 <br><button type="button" class="btn">Basic</button></p>
+        <p>Double Wear Nude<br>$42.00<br><button type="button" class="btn">Add</button></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="estee3.PNG" style="width:100%">
+          <img src="estee5.PNG" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Double Wear<br><b>$48.99</b><br><button type="button" class="btn">Add</button></p>
+        <p>Limited Edition Pure Color Envy<br>$32.00<b><button type="button" class="btn">Add</button></p> 
+      
       </div>
       <div class="w3-container">
-        <img src="estee4.PNG" style="width:100%">
-        <p>Double Wear Light<br><b>$42.00</b><br><button type="button" class="btn">Add</button></p>
+        <img src="estee7.PNG" style="width:100%">
+        <p>Pure Color Envy Sculpting Lacquer<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="estee5.PNG" style="width:100%">
-        <p>Limited Edition Pure Color Envy<br><br><b>$32.00</b><button type="button" class="btn">Add</button></p>      </div>
+        <img src="estee3.PNG" style="width:100%">
+        <p>Double Wear<br><b>$48.99</b><br><button type="button" class="btn">Add</button></p>
+              </div>
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="estee6.PNG" style="width:100%">
@@ -122,12 +124,14 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="estee7.PNG" style="width:100%">
+        <img src="estee4.PNG" style="width:100%">
         <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee8.PNG" style="width:100%">
-        <p>Pure Color Envy Sculpting Lacquer<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>      </div>
+
+        <p>Double Wear Light<br><b>$42.00</b><br><button type="button" class="btn">Add</button></p>
+        
     </div>
   </div>
 
