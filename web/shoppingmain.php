@@ -90,8 +90,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-row w3-grayscale">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="estee1.png" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b><button type="button" class="btn">Basic</button></p>
+        <img src="estee1.PNG" style="width:100%">
+        <p>Test<br><b>$24.99</b><button type="button" class="btn">Basic</button></p>
       </div>
       <div class="w3-container">
         <img src="/w3images/jeans2.jpg" style="width:100%">
