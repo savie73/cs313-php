@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <title>Shopping</title>
@@ -15,7 +19,7 @@
 
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
-body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
 <body class="w3-content" style="max-width:1200px">
 
@@ -85,7 +89,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <img src="estee5.PNG" style="width:100%">
         
 
-        <p>Limited Edition Pure Color Envy<br>$32.00<b><button type="button" class="btn">Add</button></p>
+        <p>Limited Edition Pure Color<br>$32.00<b><button type="button" class="btn">Add</button></p>
       </div>
     </div>
 
