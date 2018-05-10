@@ -103,7 +103,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
       <div class="w3-container">
         <img src="estee7.PNG" style="width:100%">
-        <p>Pure Color Envy Sculpting Lacquer<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
       </div>
     </div>
 
@@ -123,11 +123,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <p>Pure Color Envy<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
       </div>
     </div>
-
+   
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee4.PNG" style="width:100%">
-        <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Pure Color Envy Sculpting Lacquer<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee8.PNG" style="width:100%">
