@@ -64,7 +64,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Jeans</p>
+    <p class="w3-left">Estee Lauder Makeup</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
       <i class="fa fa-search"></i>
@@ -73,11 +73,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%">
+    <img src="esteebanner.jpg" alt="Jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
-      <h1 class="w3-hide-small">COLLECTION 2016</h1>
+      <h1 class="w3-hide-small">COLLECTION 2018</h1>
       <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
     </div>
   </div>
@@ -90,7 +90,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-row">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="estee1.PNG" style="width:100%">
+        <img src="estee1.PNG" style="width:75%">
         <p>Double Wear<br><b>$42.00</b><button type="button" class="btn">Add</button></p>
       </div>
       <div class="w3-container">
