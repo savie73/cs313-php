@@ -114,13 +114,13 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee1.PNG" style="width:100%">
-        <p>Perfectionist<br><b>$42.00<br><button type="button" id="found1"class="btn" onclick="addToCart('Perfectionist')">Add</button></p>
+        <p>Perfectionist<br><br><button type="button" id="found1"class="btn" onclick="addToCart('Perfectionist')">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee5.PNG" style="width:100%">
         
 
-        <p>Limited Edition Pure Color<br>$32.00<b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
+        <p>Limited Edition Pure Color<br><b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
 
           
       </div>
@@ -128,37 +128,39 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
+        <img src="estee2.PNG" style="width:100%">
+        <p>Double Wear Nude Fresh<br><b><br><button type="button" class="btn" onclick="addToCart('Double Wear Nude Fresh')" >Add</button></p>
+      </div>
+    </div>
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
         <img src="estee7.PNG" style="width:100%">
-        <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Lip Balm')" >Add</button></p>
+        <p>Pure Color Envy Lip Balm<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Lip Balm')" >Add</button></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee3.PNG" style="width:100%">
-        <p>Double Wear<br><b>$48.99</b><br><button type="button" class="btn" onclick="addToCart('Double Wear')">Add</button></p>
+        <p>Double Wear<br><br><button type="button" class="btn" onclick="addToCart('Double Wear')">Add</button></p>
               </div>
       <div class="w3-container">
         <div class="w3-display-container">
           <img src="estee6.PNG" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
         </div>
-        <p>Pure Color Envy<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy')">Add</button></p>
+        <p>Pure Color Envy<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy')">Add</button></p>
       </div>
     </div>
    
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee4.PNG" style="width:100%">
-        <p>Double Wear Light<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Double Wear Light')">Add</button></p>
+        <p>Double Wear Light<br><br><button type="button" class="btn" onclick="addToCart('Double Wear Light')">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee8.PNG" style="width:100%">
 
-        <p>Pure Color Envy Sculpting<br><b>$42.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Sculpting')">Add</button></p>
+        <p>Pure Color Envy Sculpting<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Sculpting')">Add</button></p>
         
     </div>
   </div>
