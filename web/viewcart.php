@@ -15,6 +15,9 @@
 		}
 
 	?>
+
+	<button value="Checkout" onclick="location.href='confirmation.php'">Checkout</button>
+
 	</table>
 
 </body>
