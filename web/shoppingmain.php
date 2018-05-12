@@ -119,15 +119,15 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <div class="w3-container">
         <img src="estee5.PNG" style="width:100%">
         <p>Limited Edition Pure Color<br><b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
-          
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-        <img src="estee2.PNG" style="width:100%">
-        <p>Double Wear Nude Fresh<br><b><br><button type="button" class="btn" onclick="addToCart('Double Wear Nude Fresh')" >Add</button></p>
+          <img src="estee2.PNG" style="width:100%">
+        </div>
+          <p>Double Wear Nude Fresh<br><b><br><button type="button" class="btn" onclick="addToCart('Double Wear Nude Fresh')" >Add</button></p>
       </div>
     
       <div class="w3-container">
@@ -168,7 +168,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT END
   PRODUCT END
  -->
-</div>
+
   <!-- End page content -->
 </div>
 
