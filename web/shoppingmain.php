@@ -158,7 +158,9 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <p>Double Wear Light<br><br><button type="button" class="btn" onclick="addToCart('Double Wear Light')">Add</button></p>
       </div>
       <div class="w3-container">
+        <div class="w3-display-container">
         <img src="estee8.PNG" style="width:100%">
+      </div>
 
         <p>Pure Color Envy Sculpting<br><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Sculpting')">Add</button></p>
         
