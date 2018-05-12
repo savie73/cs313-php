@@ -16,7 +16,7 @@
 
 	?>
 
-	<button value="Checkout" onclick="location.href='confirmation.php'">Checkout</button>
+	<button value="Checkout" onclick="location.href='checkout.php'">Checkout</button>
 
 	</table>
 
