@@ -83,8 +83,10 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 		}
 
 	?>
+	<br>
+	<br>
 
-	<button value="Checkout" onclick="location.href='checkout.php'">Checkout</button>
+	<button type="button" value="Checkout" class="btn" onclick="location.href='checkout.php'">Checkout</button>
 
 	</table>
 
