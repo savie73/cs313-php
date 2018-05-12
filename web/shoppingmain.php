@@ -1,6 +1,11 @@
 <?php
 // Start the session
 session_start();
+
+  if (!isset($_SESSION['items'])) {
+    $_SESSION['items'] = array();
+  }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,6 +21,22 @@ session_start();
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <script>
+
+    function addToCart(item) {
+      var xhttp = new XMLHttpRequest();
+                xhttp.open("POST", "addToCart.php", true);
+                xhttp.onreadystagechange = function() {
+                    if (this.status == 200) {
+                        document.getElementById("textFromServer").innerHtml = this.responseText;
+                    }
+                }
+                xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhttp.send("item=" + item);
+    }
+
+  </script>
 
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
@@ -59,6 +80,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <p class="w3-left">Estee Lauder Makeup</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <!-- //shoppping cart -->
       <i class="fa fa-search"></i>
     </p>
   </header>
@@ -78,18 +100,29 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <p>8 items</p>
   </div>
 
+  <!-- PRODUCT START 
+  PRODUCT START 
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+ -->
+  
   <!-- Product grid -->
   <div class="w3-row">
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee1.PNG" style="width:100%">
-        <p>Perfectionist<br><b>$42.00<br><button type="button" class="btn">Add</button></p>
+        <p>Perfectionist<br><b>$42.00<br><button type="button" id="found1"class="btn" onclick="addToCart('Perfectionist')">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee5.PNG" style="width:100%">
         
 
-        <p>Limited Edition Pure Color<br>$32.00<b><button type="button" class="btn">Add</button></p>
+        <p>Limited Edition Pure Color<br>$32.00<b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
+
+          
       </div>
     </div>
 
@@ -101,20 +134,17 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
-        </div>
-       <p>Double Wear Nude<br>$42.00<br><button type="button" class="btn">Add</button></p>
-      
       </div>
       <div class="w3-container">
         <img src="estee7.PNG" style="width:100%">
-        <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Pure Color Envy Lip Balm<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Lip Balm')" >Add</button></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee3.PNG" style="width:100%">
-        <p>Double Wear<br><b>$48.99</b><br><button type="button" class="btn">Add</button></p>
+        <p>Double Wear<br><b>$48.99</b><br><button type="button" class="btn" onclick="addToCart('Double Wear')">Add</button></p>
               </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -124,24 +154,31 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Pure Color Envy<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Pure Color Envy<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy')">Add</button></p>
       </div>
     </div>
    
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee4.PNG" style="width:100%">
-        <p>Double Wear Light<br><b>$32.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Double Wear Light<br><b>$32.00</b><br><button type="button" class="btn" onclick="addToCart('Double Wear Light')">Add</button></p>
       </div>
       <div class="w3-container">
         <img src="estee8.PNG" style="width:100%">
 
-        <p>Pure Color Envy Sculpting<br><b>$42.00</b><br><button type="button" class="btn">Add</button></p>
+        <p>Pure Color Envy Sculpting<br><b>$42.00</b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Sculpting')">Add</button></p>
         
     </div>
   </div>
 
-  
+   <!-- PRODUCT END 
+  PRODUCT END 
+  PRODUCTM END
+  PRODUCT END
+  PRODUCT END
+  PRODUCT END
+  PRODUCT END
+ -->
 
   <!-- End page content -->
 </div>

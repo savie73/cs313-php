@@ -21,3 +21,6 @@ You have visited the page : <?php echo $sessionCount; ?> times
 
 </body>
 </html>
+
+
+session[] = post[]
