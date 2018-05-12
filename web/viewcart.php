@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<title>View Cart</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -15,7 +17,6 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
-</head>
 </head>
 	<body class="w3-content" style="max-width:1200px">
 
@@ -120,3 +121,4 @@ function w3_close() {
 }
 </script>
 </body>
+</html>
