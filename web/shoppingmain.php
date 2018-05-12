@@ -9,6 +9,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
+<head>
 <title>Shopping</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +19,7 @@ session_start();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
@@ -42,6 +44,7 @@ session_start();
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
+</head>
 <body class="w3-content" style="max-width:1200px">
 
 <!-- Sidebar/menu -->
@@ -51,8 +54,8 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <h3 class="w3-wide"><b>ESTEE LAUDER</b></h3>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Eye Makeup</a>
-    <a href="#" class="w3-bar-item w3-button">Skincare</a>
+    <a href="shoppingmain.php" class="w3-bar-item w3-button">Back to Browsing</a>
+    
     
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
