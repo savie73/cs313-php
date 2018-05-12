@@ -132,7 +132,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <p>Double Wear Nude Fresh<br><b><br><button type="button" class="btn" onclick="addToCart('Double Wear Nude Fresh')" >Add</button></p>
       </div>
     </div>
-    <div class="w3-col l3 s6">
+
       <div class="w3-container">
         <img src="estee7.PNG" style="width:100%">
         <p>Pure Color Envy Lip Balm<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Lip Balm')" >Add</button></p>
