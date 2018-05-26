@@ -158,7 +158,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   // {
   //   echo 'user: ' . $row['brand'] . ' product_name: ' . $row['price'] . 'image' <br/>';
   // }
-$stmt = $db->query('SELECT brand, prouduct_name, price, image FROM foundation');
+$stmt = $db->query('SELECT brand, product_name, price, image FROM foundation');
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
  foreach ($rows as $row)
