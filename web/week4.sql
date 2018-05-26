@@ -1,15 +1,4 @@
-CREATE TABLE User
-(
-	id SERIAL,
-	first_name VARCHAR(40),
-	last_name VARCHAR(40),
 
-);
-
-
-
-
-//////////////////////////////////
 
 CREATE TABLE foundation 
 (
@@ -17,6 +6,7 @@ CREATE TABLE foundation
 	brand VARCHAR(100),
 	product_name VARCHAR(100),
 	price INT
+	image VARCHAR(200)
 );
 
 CREATE TABLE skin_type 

@@ -159,7 +159,14 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   //   echo 'user: ' . $row['brand'] . ' product_name: ' . $row['price'] . 'image' <br/>';
   // } SELECT found_id FROM foundation_skin WHERE skin_id = 1' '
  //SELECT brand, product_name, price, image FROM foundation'
-$stmt = $db->query('SELECT found_id FROM foundation_skin WHERE skin_id = 1');
+$stmt = $db->query('SELECT
+  foundation.*
+FROM foundation
+INNER JOIN foundation_skin
+  ON foundation.found_id = foundation_skin.found_id
+INNER JOIN skin_type
+  ON foundation_skin.skin_id = skin_type.skin_id
+WHERE skin_type.skin_id = 1');
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
  foreach ($rows as $row)
