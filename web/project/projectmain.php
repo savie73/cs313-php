@@ -51,21 +51,17 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    <h3 class="w3-wide"><b>ESTEE LAUDER</b></h3>
+    <h3 class="w3-wide"><b>Foundation Finder</b></h3>
   </div>
-  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="shoppingmain.php" class="w3-bar-item w3-button">Back to Browsing</a>
-    
-    
-  </div>
-  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+  <a href="project/dryskin.php" class="w3-bar-item w3-button w3-padding">Dry Skin</a> 
+  <a href="/project/oilyskin.php" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Oily Skin</a> 
+  <a href="acne.php"  class="w3-bar-item w3-button w3-padding">Acne Prone Skin</a>
+  <a href="combo.php" class="w3-bar-item w3-button w3-padding">Combination Skin</a> 
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24 w3-wide">ESTEE LAUDER</div>
+  <div class="w3-bar-item w3-padding-24 w3-wide">Foundation Finder</div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
 
@@ -80,7 +76,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Estee Lauder Makeup</p>
+    <p class="w3-left">Foundation Finder</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right" onclick="location.href='viewcart.php'"></i>
       <!-- //shoppping cart -->
@@ -112,56 +108,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
  -->
   
-  <!-- Product grid -->
-  <div class="w3-row">
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="estee1.PNG" style="width:100%">
-        <p>Perfectionist<br><br><button type="button" id="found1" class="btn" onclick="addToCart('Perfectionist')">Add</button></p>
-      </div>
-      <div class="w3-container">
-        <img src="estee5.PNG" style="width:100%">
-        <p>Limited Edition Pure Color<br><b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="estee2.PNG" style="width:100%">
-        </div>
-          <p>Double Wear Nude Fresh<br><b><br><button type="button" class="btn" onclick="addToCart('Double Wear Nude Fresh')" >Add</button></p>
-      </div>
-    
-      <div class="w3-container">
-        <img src="estee7.PNG" style="width:100%">
-        <p>Pure Color Envy Lip Balm<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Lip Balm')" >Add</button></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="estee3.PNG" style="width:100%">
-        <p>Double Wear<br><br><button type="button" class="btn" onclick="addToCart('Double Wear')">Add</button></p>
-      </div>
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="estee6.PNG" style="width:100%">
-        </div>
-        <p>Pure Color Envy<br><b><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy')">Add</button></p>
-      </div>
-    </div>
-   
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="estee4.PNG" style="width:100%">
-        <p>Double Wear Light<br><br><button type="button" class="btn" onclick="addToCart('Double Wear Light')">Add</button></p>
-      </div>
-      <div class="w3-container">
-        <img src="estee8.PNG" style="width:100%">
-        <p>Pure Color Envy Sculpting<br><br><button type="button" class="btn" onclick="addToCart('Pure Color Envy Sculpting')">Add</button></p>
-    </div>
-  </div>
+<p>This will eventually be a quiz that will take you to the results page. For this assignment I just quered what would display if they selected either: dry, oily, acne, or combo. I will later implement a price range table. </p>
 
    <!-- PRODUCT END 
   PRODUCT END 

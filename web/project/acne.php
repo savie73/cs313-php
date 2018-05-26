@@ -61,7 +61,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24 w3-wide">Foundation Finder</div>
+  <div class="w3-bar-item w3-padding-24 w3-wide">Acne Prone</div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
 
@@ -76,7 +76,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Foundation Finder</p>
+    <p class="w3-left">Acne Prone</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right" onclick="location.href='viewcart.php'"></i>
       <!-- //shoppping cart -->
