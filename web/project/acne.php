@@ -143,13 +143,19 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         
     //     echo "<li>$title ($year) - Rated $rating</li>";
     // }
-  foreach ($db->query('SELECT found_id FROM foundation_skin WHERE skin_id = 1')  as $row)
+
+  // foreach ($db->query('SELECT found_id FROM foundation_skin WHERE skin_id = 1')  as $row)
+  // {
+  //   echo 'brand: ' . $row['brand'];
+  //   echo ' product name: ' . $row['product_name'];
+  //   echo ' price: ' . $row['price'];
+  //   echo ' image: ' . $row['image'];
+  //   echo '<br/>';
+  // }
+  $statement = $db->query('SELECT brand, product_name, price, image FROM foundation f INNER JOIN ');
+  while ($row = $statement->fetch(PDO::FETCH_ASSOC))
   {
-    echo 'brand: ' . $row['brand'];
-    echo ' product name: ' . $row['product_name'];
-    echo ' price: ' . $row['price'];
-    echo ' image: ' . $row['image'];
-    echo '<br/>';
+    echo 'user: ' . $row['brand'] . ' product_name: ' . $row['price'] . 'image' <br/>';
   }
 
 ?>
