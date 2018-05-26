@@ -152,12 +152,21 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   //   echo ' image: ' . $row['image'];
   //   echo '<br/>';
   // }
- 
+
   // $statement = $db->query('SELECT brand, product_name, price, image FROM foundation f INNER JOIN ');
   // while ($row = $statement->fetch(PDO::FETCH_ASSOC))
   // {
   //   echo 'user: ' . $row['brand'] . ' product_name: ' . $row['price'] . 'image' <br/>';
   // }
+
+ foreach ($db->query('SELECT brand, prouduct_name, price, image FROM foundation') as $row)
+{
+ echo 'brand: ' . $row['brand'];
+ echo ' product name: ' . $row['product_name'];
+ echo ' price: ' . $row['price'];
+ echo ' image: ' . $row['image'];
+ echo '<br/>';
+}
 
 ?>
   
