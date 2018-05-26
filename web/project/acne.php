@@ -53,10 +53,10 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>Foundation Finder</b></h3>
   </div>
-  <a href="dryskin.php" class="w3-bar-item w3-button w3-padding">Dry Skin</a> 
-  <a href="oilyskin.php" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Oily Skin</a> 
-  <a href="acne.php"  class="w3-bar-item w3-button w3-padding">Acne Prone Skin</a>
-  <a href="combo.php" class="w3-bar-item w3-button w3-padding">Combination Skin</a> 
+  <a href="/project/dryskin.php" class="w3-bar-item w3-button w3-padding">Dry Skin</a> 
+  <a href="/project/oilyskin.php" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Oily Skin</a> 
+  <a href="/project/acne.php"  class="w3-bar-item w3-button w3-padding">Acne Prone Skin</a>
+  <a href="/project/combo.php" class="w3-bar-item w3-button w3-padding">Combination Skin</a> 
 </nav>
 
 <!-- Top menu on small screens -->
@@ -86,7 +86,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="esteebanner.jpg" alt="Jeans" style="width:100%">
+    <img src="/project/images/esteebanner.jpg" alt="Jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
