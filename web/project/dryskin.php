@@ -6,6 +6,26 @@ session_start();
     $_SESSION['items'] = array();
   }
 
+  try
+{
+    $dbUrl = getenv('DATABASE_URL');
+    $dbopts = parse_url($dbUrl);
+    
+    $dbHost = $dbopts["host"];
+    $dbPort = $dbopts["port"];
+    $dbUser = $dbopts["user"];
+    $dbPassword = $dbopts["pass"];
+    $dbName = ltrim($dbopts["path"],'/');
+    
+    $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    
+}
+catch (PDOException $ex)
+{
+  echo 'Error!: ' . $ex->getMessage();
+  die();
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -110,7 +130,26 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
  -->
   
   <!-- Product grid -->
-  
+  <?php
+     
+  $stmt = $db->query('SELECT
+    foundation.*
+  FROM foundation
+  INNER JOIN foundation_skin
+    ON foundation.found_id = foundation_skin.found_id
+  WHERE foundation_skin.skin_id = 1');
+  $stmt->execute();
+  $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+   foreach ($rows as $row)
+  {
+    echo 'brand: ' . $row['brand'];
+    echo ' product name: ' . $row['product_name'];
+    echo ' price: ' . $row['price'];
+    echo '<img src="' . $row['image'] . '" alt="alt text" height="42" width="42" />';
+    echo '<br/>';
+  }
+
+?>
 
    <!-- PRODUCT END 
   PRODUCT END 
