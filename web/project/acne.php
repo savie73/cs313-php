@@ -166,7 +166,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
  echo 'brand: ' . $row['brand'];
  echo ' product name: ' . $row['product_name'];
  echo ' price: ' . $row['price'];
- echo ' image: ' . $row['image'];
+ echo '<img src="' . $row['image'] . '" alt="alt text" height="42" width="42" />';
  echo '<br/>';
 }
 
