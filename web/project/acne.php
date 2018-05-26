@@ -142,9 +142,9 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
    foreach ($rows as $row)
   {
 
-    echo $row['brand'];
-    echo $row['product_name'];
-    echo $row['price'];
+    echo .$row['brand'];
+    echo .$row['product_name'];
+    echo .$row['price'];
     echo '<img src="' . $row['image'] . '" alt="alt text" style="width:100%"/>';
    echo '<br/>';
   }
