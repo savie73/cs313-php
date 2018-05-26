@@ -164,9 +164,7 @@ $stmt = $db->query('SELECT
 FROM foundation
 INNER JOIN foundation_skin
   ON foundation.found_id = foundation_skin.found_id
-INNER JOIN skin_type
-  ON foundation_skin.skin_id = skin_type.skin_id
-WHERE skin_type.skin_id = 1');
+WHERE foundation_skin.skin_id = 1');
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
  foreach ($rows as $row)
