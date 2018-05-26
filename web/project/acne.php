@@ -53,6 +53,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>Foundation Finder</b></h3>
   </div>
+  <a href="/project/projectmain.php" class="w3-bar-item w3-button w3-padding">Home</a> 
   <a href="/project/dryskin.php" class="w3-bar-item w3-button w3-padding">Dry Skin</a> 
   <a href="/project/oilyskin.php" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Oily Skin</a> 
   <a href="/project/acne.php"  class="w3-bar-item w3-button w3-padding">Acne Prone Skin</a>
