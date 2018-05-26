@@ -157,8 +157,9 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   // while ($row = $statement->fetch(PDO::FETCH_ASSOC))
   // {
   //   echo 'user: ' . $row['brand'] . ' product_name: ' . $row['price'] . 'image' <br/>';
-  // }
-$stmt = $db->query('SELECT brand, product_name, price, image FROM foundation');
+  // } SELECT found_id FROM foundation_skin WHERE skin_id = 1' '
+ //SELECT brand, product_name, price, image FROM foundation'
+$stmt = $db->query('SELECT found_id FROM foundation_skin WHERE skin_id = 1');
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
  foreach ($rows as $row)
