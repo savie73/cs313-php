@@ -25,7 +25,7 @@
     <ul style="list-style-position: inside;text-align: center;">
          <li><a href="index.php" target="_self">Assignment 01</a></li>
         <li><a href="shoppingmain.php" target="_self">Assignment 03</a></li>
-        <li><a href="projectmain.php" target="_self">Assignment 05</a></li>
+        <li><a href="/project/projectmain.php" target="_self">Assignment 05</a></li>
         <li><a href="" target="_self">Assignment 06</a></li>
         <li><a href="" target="_self">Assignment 07</a></li>
         <li><a href="" target="_self">Assignment 08</a></li>
