@@ -20,6 +20,11 @@
     // echo 'Chapter: <input type="text" name="Chapter"><br>';
     // echo 'Verse: <input type="text" name="Verse"><br>';
     // echo '<textarea rows="4" cols="50"></textarea><br>';
+    echo 'What is your price range?<br>';
+    echo '<input type="radio" name="price" value="Drug Store" checked> Male<br>';
+    echo '<input type="radio" name="price" value="High End"><br>';
+
+    
 
     echo 'What is your skin type?<br>';
     foreach ($db->query('SELECT skin_id, type FROM skin_type') as $topic_row )
