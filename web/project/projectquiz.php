@@ -21,8 +21,8 @@
     // echo 'Verse: <input type="text" name="Verse"><br>';
     // echo '<textarea rows="4" cols="50"></textarea><br>';
     echo 'What is your price range?<br>';
-    echo '<input type="radio" name="price" value="Drug Store" checked> Male<br>';
-    echo '<input type="radio" name="price" value="High End"><br>';
+    echo '<input type="radio" name="price" value="cheap" checked>Drug Store<br>';
+    echo '<input type="radio" name="price" value="pricey">High End<br>';
 
     
 
