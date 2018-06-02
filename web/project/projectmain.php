@@ -62,10 +62,8 @@ p {
     <h3 class="w3-wide"><b>Foundation Finder</b></h3>
   </div>
   <a href="/project/projectmain.php" class="w3-bar-item w3-button w3-padding">Home</a> 
-  <a href="/project/dryskin.php" class="w3-bar-item w3-button w3-padding">Dry Skin</a> 
-  <a href="/project/oilyskin.php" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Oily Skin</a> 
-  <a href="/project/acne.php"  class="w3-bar-item w3-button w3-padding">Acne Prone Skin</a>
-  <a href="/project/combo.php" class="w3-bar-item w3-button w3-padding">Combination Skin</a> 
+  <a href="/project/projectquiz.php" class="w3-bar-item w3-button w3-padding">Quiz</a> 
+  
 </nav>
 
 <!-- Top menu on small screens -->
