@@ -28,7 +28,7 @@
     {
 
         $id = $topic_row['skin_id'];
-        echo "<input type='radio' name='skint[]' value='$skin_id'>" . $topic_row['type'] . "</br>";
+        echo "<input type='radio' name='skint' value='$skin_id'>" . $topic_row['type'] . "</br>";
     
     }
     echo '<input type ="submit">';
