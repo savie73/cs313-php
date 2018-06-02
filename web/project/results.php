@@ -30,6 +30,7 @@ catch (PDOException $ex)
 <?php 
 	
 	$source = $_POST['price'];
+	$skin_id = $_POST['skint'];
 	if ($source == 'cheap')
 	{
 		$source = 20;
