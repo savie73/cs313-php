@@ -30,7 +30,7 @@ function get_db() {
 		$dbopts = parse_url($dbUrl);
 		$dbHost = $dbopts["host"];
 		$dbPort = $dbopts["port"];
-		$dbUser = $dbopts["admin"];
+		$dbUser = $dbopts["user"];
 		$dbPassword = $dbopts["pass"];
 		$dbName = ltrim($dbopts["path"],'/');
 		// Create the PDO connection
