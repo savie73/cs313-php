@@ -94,9 +94,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </div>
   </div>
 
-  <div class="w3-container w3-text-grey" id="jeans">
-    <p>8 items</p>
-  </div>
+  
 
   <!-- PRODUCT START 
   PRODUCT START 
@@ -107,7 +105,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
  -->
   
-<a href="projectquiz.php"><img src="/project/images/button.png" width="400" height="400" alt="button"></a>
+<a href="projectquiz.php"><img src="/project/images/button.png" width="600" height="300" alt="button"></a>
 
    <!-- PRODUCT END 
   PRODUCT END 
