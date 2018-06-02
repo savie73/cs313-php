@@ -26,9 +26,8 @@ catch (PDOException $ex)
   die();
 }
 
-?>
-<?php 
-	
+	 
+		
 	$source = $_POST['price'];
 	if ($source == 'cheap')
 	{
