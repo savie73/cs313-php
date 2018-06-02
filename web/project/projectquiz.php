@@ -24,10 +24,11 @@
     
 
     echo 'What is your skin type?<br>';
-    foreach ($db->query('SELECT skin_id, type FROM skin_type') as $topic_row )
+    foreach ($db->query('SELECT skin_id, type FROM 
+        skin_type') as $topic_row )
     {
 
-        $id = $topic_row['skin_id'];
+        $skin_id = $topic_row['skin_id'];
         echo "<input type='radio' name='skint' value='$skin_id'>" . $topic_row['type'] . "</br>";
     
     }
