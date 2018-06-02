@@ -64,5 +64,5 @@ catch (PDOException $ex)
 		}
 	}
 
-	if($source)
+	
  ?>
