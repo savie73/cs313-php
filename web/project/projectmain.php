@@ -107,7 +107,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
  -->
   
-<a href="projectquiz.php"><img src="button.png" width="100%" alt="button"></a>
+<a href="projectquiz.php"><img src="/project/images/button.png" width="100%" alt="button"></a>
 
    <!-- PRODUCT END 
   PRODUCT END 
