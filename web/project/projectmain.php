@@ -89,10 +89,8 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-display-container w3-container">
     <img src="/project/images/esteebanner.jpg" alt="Jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
-      <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
-      <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
-      <h1 class="w3-hide-small">COLLECTION 2018</h1>
-      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+      
+      
     </div>
   </div>
 
@@ -109,7 +107,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
  -->
   
-<p>This will eventually be a quiz that will take you to the results page. For this assignment I just quered what would display if they selected either: dry, oily, acne, or combo. I will later implement a price range table. I added the side bar navigation to each results page for the purpose of this weeks assignment. You will not be able to get to a page of it later one, since it will depend on quiz results. </p>
+<a href="projectquiz.php"><img src="button.png" width="100%" alt="button"></a>
 
    <!-- PRODUCT END 
   PRODUCT END 

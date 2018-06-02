@@ -129,6 +129,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
   PRODUCT START
  -->
+ <div class="w3-row">
  <?php
      
   $stmt = $db->query('SELECT
@@ -151,6 +152,8 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 ?>
   
+  </div> 
+    <!-- //w-3  row end -->
   <!-- Product grid -->
   
    <!-- PRODUCT END 
