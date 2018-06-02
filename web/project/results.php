@@ -47,7 +47,7 @@ catch (PDOException $ex)
 		}
 	}
 
-	else ($source == 'pricey')
+	else if ($source == 'pricey')
 	{
 		$source = 21;
 		$stmt = $db->query('SELECT price FROM foundation 
