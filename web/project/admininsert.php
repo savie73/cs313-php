@@ -39,6 +39,6 @@ catch (Exception $ex)
 	die();
 }
 // finally, redirect them to a new page to actually show the topics
-header("Location: showTopics.php");
+header("Location: adminshow.php");
 die(); 
 ?>
