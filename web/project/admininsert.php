@@ -2,7 +2,7 @@
 
 
 $brand = $_POST['brand'];
-$product = $_POST['product'];
+$product_name = $_POST['product'];
 $price = $_POST['price'];
 $image = $_POST['imageu'];
 $skin_ids = $_POST['skint'];
@@ -11,11 +11,11 @@ require("dbConnect.php");
 $db = get_db();
 try
 {
-	$query = 'INSERT INTO foundation(brand, product, price, image) VALUES(:brand, :product, :price, :image)';
+	$query = 'INSERT INTO foundation(brand, product_name, price, image) VALUES(:brand, :product_name, :price, :image)';
 	$statement = $db->prepare($query);
 	
 	$statement->bindValue(':brand', $brand);
-	$statement->bindValue(':product', $product);
+	$statement->bindValue(':product_name', $product_name);
 	$statement->bindValue(':price', $price);
 	$statement->bindValue(':image', $image);
 	$statement->execute();

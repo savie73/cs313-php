@@ -42,7 +42,7 @@ $db = get_db();
     <br /><br />
 
 
-    <label>Skin Type</label>br /><
+    <label>Skin Type</label><br>
 
 <?php
 
