@@ -26,14 +26,14 @@ catch (PDOException $ex)
   die();
 }
 
-	 
-		
+?>
+<?php 
+	
 	$source = $_POST['price'];
 	if ($source == 'cheap')
 	{
 		$source = 20;
-		$stmt = $db->query("SELECT price FROM foundation 
-			(CASE WHEN price <= 20)");
+		$stmt = $db->query("SELECT price FROM foundation WHERE price <= 20");
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 		foreach ($rows as $row)
@@ -49,8 +49,7 @@ catch (PDOException $ex)
 	else if ($source == 'pricey')
 	{
 		$source = 21;
-		$stmt = $db->query("SELECT price FROM foundation 
-			(CASE WHEN price >= 21)");
+		$stmt = $db->query("SELECT price FROM foundation WHERE price >= 21");
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 		foreach ($rows as $row)
