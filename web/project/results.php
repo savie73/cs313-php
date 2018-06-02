@@ -157,10 +157,10 @@ catch (PDOException $ex)
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 		foreach ($rows as $row)
 		{
-			echo 'brand: ' . $row['brand'];
-		    echo ' product name: ' . $row['product_name'];
-		    echo ' price: ' . $row['price'];
-		    echo '<img src="' . $row['image'] . '" alt="alt text" height="42" width="42" />';
+			echo ' ' .$row['brand'];
+		    echo ' ' .$row['product_name'];
+		    echo ' $' . $row['price'];
+		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
 		    echo '<br/>';
 		}
 	}
