@@ -27,7 +27,7 @@ try
 		echo "FoundId: $found_id, skinid: $skin_id";
 		// Again, first prepare the statement
 		$statement = $db->prepare('INSERT INTO foundation(found_id, skin_id) VALUES (:found_id, :skin_id)');
-		$statement->bindValue(':found_id', $found_id;
+		$statement->bindValue(':found_id', $found_id);
 		$statement->bindValue(':skin_id', $skin_ids);
 		$statement->execute();
 	}

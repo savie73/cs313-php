@@ -41,9 +41,6 @@ $db = get_db();
     <label for="imageu">Image URL</label>
     <br /><br />
 
-    <label for="txtContent">Content:</label><br />
-    <textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
-    <br /><br />
 
     <label>Skin Type</label>br /><
 
