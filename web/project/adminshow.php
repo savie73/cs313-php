@@ -23,7 +23,7 @@ $db = get_db();
 <?php
 try
 {
-	$statement = $db->prepare('SELECT id, brand, product_name, price, image FROM foundation');
+	$statement = $db->prepare('SELECT found_id, brand, product_name, price, image FROM foundation');
 	$statement->execute();
 	// Go through each result
 	while ($row = $statement->fetch(PDO::FETCH_ASSOC))
