@@ -30,7 +30,7 @@ catch (PDOException $ex)
 <?php 
 	
 	$source = $_POST['price'];
-	if ($source === cheap)
+	if ($source == 'cheap')
 	{
 		$source = 20;
 		$stmt = $db->query('SELECT price FROM foundation 
@@ -47,7 +47,7 @@ catch (PDOException $ex)
 		}
 	}
 
-	else ($source === pricey)
+	else ($source == 'pricey')
 	{
 		$source = 21;
 		$stmt = $db->query('SELECT price FROM foundation 
