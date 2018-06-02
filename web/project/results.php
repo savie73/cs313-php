@@ -34,7 +34,7 @@ catch (PDOException $ex)
 	if ($source == 'cheap')
 	{
 		$source = 20;
-		$stmt = $db->query("SELECT * FROM foundation WHERE price <= 20 AND skin_id = :skint");
+		$stmt = $db->prepare("SELECT * FROM foundation WHERE price <= 20 AND skin_id = :skint");
 		$stmt->bindValue('skint', $skin_id, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
@@ -51,7 +51,7 @@ catch (PDOException $ex)
 	else if ($source == 'pricey')
 	{
 		$source = 21;
-		$stmt = $db->query("SELECT * FROM foundation WHERE price >= 21 AND skin_id = :skint");
+		$stmt = $db->prepare("SELECT * FROM foundation WHERE price >= 21 AND skin_id = :skint");
 		$stmt->bindValue('skint', $skin_id, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
