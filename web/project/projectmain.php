@@ -100,8 +100,8 @@ p {
       
       
     </div>
-    <p>
-    <a href="projectquiz.php"><img src="/project/images/button.png" width="300" height="200" alt="button" style="padding-top: 5%;margin-left: 15px;" ></a>
+    <p style="padding-top: 5%;>
+    <a href="projectquiz.php"><img src="/project/images/button.png" width="400" height="300" alt="button" style="padding-top: 5%;margin-left: 15px;" ></a>
      Have you always wanted to find thee <b>PERFECT FOUNDATION</b> but don't know where to look? Well look no further! Here you can find what you need, we show all price ranges and skin types! Come take a look!
      </p>
   </div>
