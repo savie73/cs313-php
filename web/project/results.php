@@ -174,9 +174,9 @@ catch (PDOException $ex)
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 		foreach ($rows as $row)
 		{
-			echo $row['brand'];
-		    echo $row['product_name'];
-		    echo $row['price'];
+			echo ' ' .$row['brand'];
+		    echo ' ' .$row['product_name'];
+		    echo ' $' . $row['price'];
 		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
 		    echo '<br/>';
 		}
