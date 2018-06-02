@@ -35,7 +35,7 @@ catch (PDOException $ex)
 	if ($source == 'cheap')
 	{
 		$source = 20;
-		$stmt = $db->prepare('SELECT foundation.* FROM foundation INNER JOIN foundation_skin ON foundation.found_id = foundation_skin.found_id WHERE foundation.price <= 20 AND foundation_skin.skin_id = :skint');
+		$stmt = $db->prepare("SELECT foundation.* FROM foundation INNER JOIN foundation_skin ON foundation.found_id = foundation_skin.found_id WHERE foundation.price <= 20 AND foundation_skin.skin_id = :skint");
 		$stmt->bindValue('skint', $skin_id, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
@@ -52,7 +52,7 @@ catch (PDOException $ex)
 	else if ($source == 'pricey')
 	{
 		$source = 21;
-		$stmt = $db->prepare('SELECT foundation.* FROM foundation INNER JOIN foundation_skin ON foundation.found_id = foundation_skin.found_id WHERE foundation.price >= 21 AND foundation_skin.skin_id = :skint');
+		$stmt = $db->prepare("SELECT foundation.* FROM foundation INNER JOIN foundation_skin ON foundation.found_id = foundation_skin.found_id WHERE foundation.price >= 21 AND foundation_skin.skin_id = :skint");
 		$stmt->bindValue('skint', $skin_id, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
