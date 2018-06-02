@@ -51,6 +51,9 @@ p {
   font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18pt;
 }
+.pad {
+  padding-top: 5%;
+}
 </style>
 </head>
 <body class="w3-content" style="max-width:1200px">
@@ -100,10 +103,12 @@ p {
       
       
     </div>
-    <p style="padding-top: 5%;">
-    <a href="projectquiz.php"><img src="/project/images/button.png" width="300" height="400" alt="button" style="padding-top: 5%;margin-left: 15px;" ></a>
+    <div class="pad">
+    <p>
+    <a href="projectquiz.php"><img src="/project/images/button.png" width="400" height="300" alt="button" style="margin-left: 15px;" ></a>
      Have you always wanted to find thee <b>PERFECT FOUNDATION</b> but don't know where to look? Well look no further! Here you can find what you need, we show all price ranges and skin types! Come take a look!
      </p>
+   </div>
   </div>
 
   <div class="w3-container w3-text-grey" id="jeans">
