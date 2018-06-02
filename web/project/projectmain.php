@@ -109,7 +109,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   PRODUCT START
  -->
   
-<p>This will eventually be a quiz that will take you to the results page. For this assignment I just quered what would display if they selected either: dry, oily, acne, or combo. I will later implement a price range table. </p>
+<p>This will eventually be a quiz that will take you to the results page. For this assignment I just quered what would display if they selected either: dry, oily, acne, or combo. I will later implement a price range table. I added the side bar navigation to each results page for the purpose of this weeks assignment. You will not be able to get to a page of it later one, since it will depend on quiz results. </p>
 
    <!-- PRODUCT END 
   PRODUCT END 

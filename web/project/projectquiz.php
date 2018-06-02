@@ -15,11 +15,8 @@
     
     ?>
     <?php 
-    // echo "<form action='quizsubmitt.php' method ='post'>";
-    // echo 'Book: <input type="text" name="Book"><br>';
-    // echo 'Chapter: <input type="text" name="Chapter"><br>';
-    // echo 'Verse: <input type="text" name="Verse"><br>';
-    // echo '<textarea rows="4" cols="50"></textarea><br>';
+    
+    echo '<form action="results.php" method="post">';
     echo 'What is your price range?<br>';
     echo '<input type="radio" name="price" value="cheap" checked>Drug Store<br>';
     echo '<input type="radio" name="price" value="pricey">High End<br>';
@@ -34,6 +31,6 @@
         echo "<input type='checkbox' name='skint[]' value='$skin_id'>" . $topic_row['type'] . "</br>";
     
     }
-    echo "<input type ='submit'>";
-    echo "</form>";
+    echo '<input type ="submit">';
+    echo '</form>';
     ?>    
