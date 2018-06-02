@@ -16,6 +16,7 @@ session_start();
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -43,6 +44,13 @@ session_start();
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+img {
+    float: right;
+}
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18pt;
+}
 </style>
 </head>
 <body class="w3-content" style="max-width:1200px">
@@ -92,7 +100,10 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       
       
     </div>
-    <a href="projectquiz.php"><img src="/project/images/button.png" width="300" height="200" alt="button" style="padding-top: 5%;"></a>
+    <p>
+    <a href="projectquiz.php"><img src="/project/images/button.png" width="300" height="200" alt="button" style="padding-top: 5%;margin-left: 15px;" ></a>
+     Have you always wanted to find thee <b>PERFECT FOUNDATION</b> but don't know where to look? Well look no further! Here you can find what you need, we show all price ranges and skin types! Come take a look!
+     </p>
   </div>
 
   <div class="w3-container w3-text-grey" id="jeans">
