@@ -2,11 +2,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="estee1.PNG" style="width:100%">
-        <p>Perfectionist<br><br><button type="button" id="found1" class="btn" onclick="addToCart('Perfectionist')">Add</button></p>
+        <p>Perfectionist<br></p>
       </div>
       <div class="w3-container">
         <img src="estee5.PNG" style="width:100%">
-        <p>Limited Edition Pure Color<br><b><button type="button" id="lip1" class="btn" onclick="addToCart('Limited Edition Pure Color')">Add</button></p>
+        <p>Limited Edition Pure Color</p>
       </div>
     </div>
 
