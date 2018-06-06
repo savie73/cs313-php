@@ -1,50 +1,9 @@
-<?php
-
-session_start();
-$badLogin = false;
-
-if (isset($_POST['txtUser']) && isset($_POST['txtPassword']))
-{
-  
-  $username = $_POST['txtUser'];
-  $password = $_POST['txtPassword'];
-  
-  require("dbConnect.php");
-  $db = get_db();
-  $query = 'SELECT password FROM login WHERE username=:username';
-  $statement = $db->prepare($query);
-  $statement->bindValue(':username', $username);
-  $result = $statement->execute();
-  if ($result)
-  {
-    $row = $statement->fetch();
-    $hashedPasswordFromDB = $row['password'];
-    if (password_verify($password, $hashedPasswordFromDB))
-    {
-      
-      $_SESSION['username'] = $username;
-      header("Location: projectmain.php");
-      die(); 
-    }
-    else
-    {
-      $badLogin = true;
-    }
-  }
-  else
-  {
-    $badLogin = true;
-  }
-}
-
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sign IN</title>
+    <title>Black And White Bootstrap Landing Page / Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -67,12 +26,6 @@ if (isset($_POST['txtUser']) && isset($_POST['txtPassword']))
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-<?php
-    if ($badLogin)
-    {
-      echo "Incorrect username or password!<br /><br />\n";
-    }
-?>
     <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">       
       <div class="overlay"></div>
       <div class="content">
@@ -115,4 +68,3 @@ if (isset($_POST['txtUser']) && isset($_POST['txtPassword']))
     <script src="js/front.js"></script>
   </body>
 </html>
-

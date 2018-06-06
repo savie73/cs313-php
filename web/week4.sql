@@ -65,3 +65,14 @@ INSERT INTO foundation_skin(found_id, skin_id) VALUES (11, 2);
 INSERT INTO foundation_skin(found_id, skin_id) VALUES (12, 1);
 INSERT INTO foundation_skin(found_id, skin_id) VALUES (13, 1);
 INSERT INTO foundation_skin(found_id, skin_id) VALUES (13, 4);
+
+
+
+//////////////////////////////////////////////////////////////////
+
+CREATE TABLE teamusers 
+(
+	id SERIAL PRIMARY KEY,
+	username VARCHAR(200),
+	password VARCHAR(256)
+);
