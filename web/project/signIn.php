@@ -43,6 +43,17 @@ if (isset($_POST['txtUser']) && isset($_POST['txtPassword']))
 <html>
 <head>
 	<title>Sign In</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <style>
 body, html {
     height: 100%;
@@ -118,18 +129,20 @@ if ($badLogin)
 ?>
 
 <div class="bg-img">
-<h1>Please sign in below:</h1>
+<h1 class="w3-left">Foundation Finder</h1>
+<h1 class="w3-left">Please sign in below:</h1>
 
 <form id="mainForm" action="signIn.php" method="POST">
 	 <div class="container">
 
+	<label for="txtUser">Username</label> 	
 	<input type="text" id="txtUser" name="txtUser" placeholder="Username">
-	<label for="txtUser">Username</label>
 	<br /><br />
 
-	<input type="password" id="txtPassword" name="txtPassword" placeholder="Password">
 	<label for="txtPassword">Password</label>
+	<input type="password" id="txtPassword" name="txtPassword" placeholder="Password">
 	<br /><br />
+	Or <a href="signUp.php">Sign up</a> for a new account.
 
 	<input type="submit" value="Sign In" />
 	</div>
@@ -137,7 +150,7 @@ if ($badLogin)
 </div>
 <br><br>
 
-Or <a href="signUp.php">Sign up</a> for a new account.
+<!-- Or <a href="signUp.php">Sign up</a> for a new account. -->
 
 </div>
 
