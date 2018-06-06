@@ -129,8 +129,8 @@ if ($badLogin)
 ?>
 
 <div class="bg-img">
-<h1 class="w3-left">Foundation Finder</h1>
-<h1 class="w3-left">Please sign in below:</h1>
+<h1 class="w3-left" style="color:white;">Foundation Finder</h1><br>
+<h1 class="w3-left" style="color:white;">Please sign in below:</h1>
 
 <form id="mainForm" action="signIn.php" method="POST">
 	 <div class="container">
