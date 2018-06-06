@@ -43,10 +43,9 @@
             <div class="col-lg-8 col-md-12 mx-auto">
               <p class="italic">Foundation Finder</p>
               <h1>Sign In.</h1>
-              <p class="italic">Let's find your perfect match.</p>
               <form id="mainForm" action="createAccount.php" method="POST">
 				<div class="container">
-					<h1>Sign up for new account</h1>
+					<h1>Sign up for a new account</h1>
 					<p class="italic">Let's find your perfect match.</p>
 				<input type="text" id="txtUser" name="txtUser" placeholder="Username">
 				<label for="txtUser">Username</label>
