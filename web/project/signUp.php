@@ -42,7 +42,6 @@
           <div class="row">
             <div class="col-lg-8 col-md-12 mx-auto">
               <p class="italic">Foundation Finder</p>
-              <h1>Sign In.</h1>
               <form id="mainForm" action="createAccount.php" method="POST">
 				<div class="container">
 					<h1>Sign up for a new account</h1>
