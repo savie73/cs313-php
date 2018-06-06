@@ -121,11 +121,11 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <?php 
     echo '<div>';
     echo '<form action="results.php" method="post">';
-    echo '<label for="price">What is your price range?</label>';
+    echo '<label for="price">What is your price range?</label><br>';
     echo '<input type="radio" name="price" value="cheap" checked>Drug Store<br>';
     echo '<input type="radio" name="price" value="pricey">High End<br>';
 
-    echo '<label for="skin">What is your skin type?</label>';
+    echo '<label for="skin">What is your skin type?</label><br>';
     foreach ($db->query('SELECT skin_id, type FROM 
         skin_type') as $topic_row )
     {
