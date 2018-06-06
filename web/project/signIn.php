@@ -23,7 +23,7 @@ if (isset($_POST['txtUser']) && isset($_POST['txtPassword']))
 		{
 			
 			$_SESSION['username'] = $username;
-			// header("Location: home.php");
+			header("Location: projectmain.php");
 			die(); 
 		}
 		else
@@ -120,7 +120,7 @@ if ($badLogin)
 <div class="bg-img">
 <h1>Please sign in below:</h1>
 
-<form id="mainForm" action="signIn.php" method="POST">
+<form id="mainForm" action="projectmain.php" method="POST">
 	 <div class="container">
 
 	<input type="text" id="txtUser" name="txtUser" placeholder="Username">
