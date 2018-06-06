@@ -119,7 +119,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     
     ?>
     <?php 
-    
+    echo '<div>';
     echo '<form action="results.php" method="post">';
     echo '<label for="price">What is your price range?</label>';
     echo '<input type="radio" name="price" value="cheap" checked>Drug Store<br>';
@@ -136,6 +136,7 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     }
     echo '<input type ="submit">';
     echo '</form>';
+    echo '</div>';
     ?>    
 
    <!-- PRODUCT END 
