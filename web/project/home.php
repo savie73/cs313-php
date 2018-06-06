@@ -27,7 +27,7 @@ body, html {
 
 .bg-img {
     /* The image used */
-    background-image: url("main.jpg");
+    background-image: url("main.png");
 
     min-height: 380px;
 
@@ -93,5 +93,3 @@ input[type=text]:focus, input[type=password]:focus {
   </form>
 </div>
 
-</body>
-</html>

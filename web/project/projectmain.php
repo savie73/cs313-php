@@ -2,9 +2,16 @@
 // Start the session
 session_start();
 
-  if (!isset($_SESSION['items'])) {
-    $_SESSION['items'] = array();
-  }
+if (isset($_SESSION['username']))
+{
+    $username = $_SESSION['username'];
+}
+else
+{
+    header("Location: signIn.php");
+    die(); 
+}
+ 
 
 ?>
 <!DOCTYPE html>
@@ -61,6 +68,11 @@ p {
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>Foundation Finder</b></h3>
   </div>
+  Your username is: <?= $username ?><br /><br />
+
+    <a href="signOut.php">Sign Out</a>
+
+  
   <a href="/project/projectmain.php" class="w3-bar-item w3-button w3-padding">Home</a> 
   <a href="/project/projectquiz.php" class="w3-bar-item w3-button w3-padding">Quiz</a> 
   
