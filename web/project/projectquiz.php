@@ -87,9 +87,6 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <!-- Image header -->
   <div class="w3-display-container w3-container">
     <img src="/project/images/esteebanner.jpg" alt="Jeans" style="width:100%">
-    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
-      
-    </div>
   </div>
 
   
