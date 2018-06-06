@@ -13,6 +13,7 @@ session_start();
 <title>Shopping</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -120,13 +121,11 @@ bodzy,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <?php 
     
     echo '<form action="results.php" method="post">';
-    echo 'What is your price range?<br>';
+    echo '<label for="price">What is your price range?</label>';
     echo '<input type="radio" name="price" value="cheap" checked>Drug Store<br>';
     echo '<input type="radio" name="price" value="pricey">High End<br>';
 
-    
-
-    echo 'What is your skin type?<br>';
+    echo '<label for="skin">What is your skin type?</label>';
     foreach ($db->query('SELECT skin_id, type FROM 
         skin_type') as $topic_row )
     {
