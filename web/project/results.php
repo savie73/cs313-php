@@ -165,10 +165,11 @@ catch (PDOException $ex)
 		{
       echo '<div class="w3-col l3 s6">';
       echo '<div class="w3-container">';
-			echo ' ' .$row['brand'];
-		  echo ' ' .$row['product_name'];
-		  echo ' $' . $row['price'];
+			
 		  echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
+      echo ' ' .$row['brand'];
+      echo ' ' .$row['product_name'];
+      echo ' $' . $row['price'];
 		  echo '<br/>';
       echo '</div>';
       echo '</div>';
@@ -186,10 +187,13 @@ catch (PDOException $ex)
 		{
       echo '<div class="w3-col l3 s6">';
       echo '<div class="w3-container">';
-			echo ' ' .$row['brand'];
-		  echo ' ' .$row['product_name'];
-		  echo ' $' . $row['price'];
+			// echo ' ' .$row['brand'];
+		 //  echo ' ' .$row['product_name'];
+		 //  echo ' $' . $row['price'];
 		  echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
+      echo ' ' .$row['brand'];
+      echo ' ' .$row['product_name'];
+      echo ' $' . $row['price'];
 		  echo '<br/>';
       echo '</div>';
       echo '</div>';
