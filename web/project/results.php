@@ -106,14 +106,6 @@ p {
     
   </div>
 
-  <!-- PRODUCT START 
-  PRODUCT START 
-  PRODUCT START
-  PRODUCT START
-  PRODUCT START
-  PRODUCT START
-  PRODUCT START
- -->
   <?php
 // Start the session
 session_start();
@@ -143,6 +135,16 @@ catch (PDOException $ex)
 }
 
 ?>
+<!-- PRODUCT START 
+  PRODUCT START 
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+  PRODUCT START
+ -->
+<div class="w3-row">
+  <div class="w3-col l3 s6">
 <?php 
 	
 	$source = $_POST['price'];
@@ -155,6 +157,8 @@ catch (PDOException $ex)
 		$stmt->bindValue('skint', $skin_id, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
+
+    echo '<div class="w3-container">';
 		foreach ($rows as $row)
 		{
 			echo ' ' .$row['brand'];
@@ -181,9 +185,11 @@ catch (PDOException $ex)
 		    echo '<br/>';
 		}
 	}
-
+  echo '</div>';
 	
  ?>
+</div>
+</div>
 <!-- <a href="projectquiz.php"><img src="/project/images/button.png" width="300" height="200" alt="button"></a> -->
 
    <!-- PRODUCT END 
