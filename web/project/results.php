@@ -158,15 +158,19 @@ catch (PDOException $ex)
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 
-    echo '<div class="w3-container">';
-    echo '<div class="w3-col l3 s6">';
+    // echo '<div class="w3-container">';
+    // echo '<div class="w3-col l3 s6">';
 		foreach ($rows as $row)
 		{
+      echo '<div class="w3-container">';
+    echo '<div class="w3-col l3 s6">';
 			echo ' ' .$row['brand'];
 		    echo ' ' .$row['product_name'];
 		    echo ' $' . $row['price'];
 		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
 		    echo '<br/>';
+        echo '</div>';
+  echo '</div>';
 		}
 	}
 
@@ -179,15 +183,19 @@ catch (PDOException $ex)
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 		foreach ($rows as $row)
 		{
+      echo '<div class="w3-container">';
+    echo '<div class="w3-col l3 s6">';
 			echo ' ' .$row['brand'];
 		    echo ' ' .$row['product_name'];
 		    echo ' $' . $row['price'];
 		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
 		    echo '<br/>';
+        echo '</div>';
+  echo '</div>';
+
 		}
 	}
-  echo '</div>';
-	echo '</div>'
+  
  ?>
 </div>
 </div>
