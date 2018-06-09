@@ -144,7 +144,7 @@ catch (PDOException $ex)
   PRODUCT START
  -->
 <div class="w3-row">
-  <div class="w3-col l3 s6">
+  
 <?php 
 	
 	$source = $_POST['price'];
@@ -159,6 +159,7 @@ catch (PDOException $ex)
 		$rows = $stmt->fetchAll(PDO:: FETCH_ASSOC);
 
     echo '<div class="w3-container">';
+    echo '<div class="w3-col l3 s6">';
 		foreach ($rows as $row)
 		{
 			echo ' ' .$row['brand'];
@@ -186,7 +187,7 @@ catch (PDOException $ex)
 		}
 	}
   echo '</div>';
-	
+	echo '</div>'
  ?>
 </div>
 </div>
