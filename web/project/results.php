@@ -144,6 +144,7 @@ catch (PDOException $ex)
   PRODUCT START
  -->
 <div class="w3-row">
+  <div class="w3-container">
   
 <?php 
 	
@@ -163,14 +164,14 @@ catch (PDOException $ex)
 		foreach ($rows as $row)
 		{
       echo '<div class="w3-container">';
-    echo '<div class="w3-col l3 s6">';
+      echo '<div class="w3-col l3 s6">';
 			echo ' ' .$row['brand'];
-		    echo ' ' .$row['product_name'];
-		    echo ' $' . $row['price'];
-		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
-		    echo '<br/>';
-        echo '</div>';
-  echo '</div>';
+		  echo ' ' .$row['product_name'];
+		  echo ' $' . $row['price'];
+		  echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
+		  echo '<br/>';
+      echo '</div>';
+      echo '</div>';
 		}
 	}
 
@@ -184,14 +185,14 @@ catch (PDOException $ex)
 		foreach ($rows as $row)
 		{
       echo '<div class="w3-container">';
-    echo '<div class="w3-col l3 s6">';
+      echo '<div class="w3-col l3 s6">';
 			echo ' ' .$row['brand'];
-		    echo ' ' .$row['product_name'];
-		    echo ' $' . $row['price'];
-		    echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
-		    echo '<br/>';
-        echo '</div>';
-  echo '</div>';
+		  echo ' ' .$row['product_name'];
+		  echo ' $' . $row['price'];
+		  echo '<img src="' . $row['image'] . '" alt="alt text"  width="100%" />';
+		  echo '<br/>';
+      echo '</div>';
+      echo '</div>';
 
 		}
 	}
